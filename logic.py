@@ -19,13 +19,5 @@ def fetch_random_image(name):
     current_url = random_image['url']  # store the URL
     return current_url
 
-# Function to open the current image URL in browser
-def open_link():
-    if current_url:
-        webbrowser.open(current_url)
-    else:
-        print("No URL available!")
-
-
 
 
